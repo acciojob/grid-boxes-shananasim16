@@ -1,1 +1,19 @@
-/*  your css code here. If applicable */
+body {
+  margin: 0;
+  font-family: 'Arial', sans-serif;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* Three columns with equal width */
+  gap: 10px; /* Gap between grid items */
+  padding: 20px; /* Padding for the grid container */
+}
+
+.grid-item {
+  background-color: green; /* Blue background color */
+  color: #fff; /* White text color */
+  padding: 20px; /* Padding for each grid item */
+  text-align: center; /* Center text */
+}
+
